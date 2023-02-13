@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('img/daoudi-aissa-Pe1Ol9oLc4o-unsplash.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app-main{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.6);
+    padding:20px;
+    text-align: center;
+}
+.app-main > * {
+    margin-bottom: 20px;
+}
+.input-box{
+    background-color: rgb(236, 233, 226);
+    height: 50px;
+    width: 80%;
+    font-size: 1.3rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.input-box:focus {
+    background-color: white;
+}
+.weather-body{
+    display: none;
+    background-color: rgb(236, 233, 226);
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    color: rgb(42, 24, 42);
+    height: 50vh;
+}
+.location-details{
+    font-weight: bold;
+}
+.weather-status{
+    padding: 20px;
+}
+.temp{
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 20px 0px;
+    text-shadow: 2px 2px;
+}
+
+.min-max,.weather{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
